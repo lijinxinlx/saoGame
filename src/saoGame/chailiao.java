@@ -1,6 +1,5 @@
 
 package saoGame;
-test
 public class chailiao {
 	String name;
 	int shuliang;
