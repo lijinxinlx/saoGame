@@ -7,6 +7,6 @@ public class chailiao {
  chailiao(String name,int shuliang){
 	 this.name=name;
 	 this.shuliang=shuliang;
-	 
+	
  }
  }
