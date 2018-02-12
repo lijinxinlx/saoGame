@@ -1,15 +1,15 @@
 package saoGame;
 
-public class Player {	//´´½¨Íæ¼ÒÀà
-	static String name;//Íæ¼ÒÃû
-	int hp;//ÑªÁ¿
-	int att;//¹¥»÷
-	int def;//·ÀÓù
-	int exp;//µ±Ç°¾­Ñé
-	int thisExp;//¾­ÑéÌõ
-	int lv;//µÈ¼¶
-	int money;//½ğÇ®
-	Player(String name,int lv,int hp,int att,int def,int exp,int thisExp,int money){//³õÊ¼»¯ÊôĞÔ
+public class Player {	//åˆ›å»ºç©å®¶ç±»
+	static String name;//ç©å®¶å
+	int hp;//è¡€é‡
+	int att;//æ”»å‡»
+	int def;//é˜²å¾¡
+	int exp;//å½“å‰ç»éªŒ
+	int thisExp;//ç»éªŒæ¡
+	int lv;//ç­‰çº§
+	int money;//é‡‘é’±
+	Player(String name,int lv,int hp,int att,int def,int exp,int thisExp,int money){//åˆå§‹åŒ–å±æ€§
 		this.name=name;
 		this.lv=lv;
 		this.hp=hp;
@@ -21,31 +21,31 @@ public class Player {	//´´½¨Íæ¼ÒÀà
 	}
 	
 	
-	Player(int hp){//Éı¼¶ÑªÁ¿
+	Player(int hp){//å‡çº§è¡€é‡
 		this.hp=hp+50;
 	}
 	
 	
-	public int attack (int def){	//Íæ¼Ò¹¥»÷·½·¨
+	public int attack (int def){	//ç©å®¶æ”»å‡»æ–¹æ³•
 		
 		return att-def;
 		
 	}
-	
-	public void show(){			//ÏÔÊ¾Íæ¼ÒÊôĞÔ
-		System.out.println("Íæ¼ÒID£º"+"¡¾"+name+"¡¿");
-		System.out.println("µÈ¼¶£º"+lv);
-		System.out.println("ÑªÁ¿£º"+hp);
-		System.out.println("¹¥»÷£º"+att);
-		System.out.println("·ÀÓù£º"+def);
-		System.out.println("¾­ÑéÖµ£º"+exp+"/"+thisExp);
-		System.out.println("½ğÇ®£º"+money);
+	test
+	public void show(){			//æ˜¾ç¤ºç©å®¶å±æ€§
+		System.out.println("ç©å®¶IDï¼š"+"ã€"+name+"ã€‘");
+		System.out.println("ç­‰çº§ï¼š"+lv);
+		System.out.println("è¡€é‡ï¼š"+hp);
+		System.out.println("æ”»å‡»ï¼š"+att);
+		System.out.println("é˜²å¾¡ï¼š"+def);
+		System.out.println("ç»éªŒå€¼ï¼š"+exp+"/"+thisExp);
+		System.out.println("é‡‘é’±ï¼š"+money);
 		
 		
 	}
 	public void end(){
 			System.out.println("--------------------");
-			System.out.println("Íæ¼ÒËÀÍö£¡END");
+			System.out.println("ç©å®¶æ­»äº¡ï¼END");
 			
 			
 			
