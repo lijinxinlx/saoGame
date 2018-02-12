@@ -31,7 +31,6 @@ public class Player {	//创建玩家类
 		return att-def;
 		
 	}
-	test
 	public void show(){			//显示玩家属性
 		System.out.println("玩家ID："+"【"+name+"】");
 		System.out.println("等级："+lv);
@@ -40,7 +39,7 @@ public class Player {	//创建玩家类
 		System.out.println("防御："+def);
 		System.out.println("经验值："+exp+"/"+thisExp);
 		System.out.println("金钱："+money);
-		
+		System.out.println("test");
 		
 	}
 	public void end(){
